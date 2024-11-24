@@ -13,5 +13,5 @@ sentence-transformers==3.3.0
 tokenizers==0.20.3
 torch==1.13.0
 torchaudio==2.0.1
-torchvision==0.13.1
+torchvision==0.15.1
 transformers==4.46.2
