@@ -4,6 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
+    "startCommand": "python app.py migrate && python app.py collectstatic --noinput && gunicorn hashfire_api.asgi:application",
     "runtime": "V2",
     "numReplicas": 1,
     "sleepApplication": false,
