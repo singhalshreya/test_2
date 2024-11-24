@@ -12,6 +12,6 @@ safetensors==0.4.5
 sentence-transformers==3.3.0
 tokenizers==0.20.3
 torch==1.13.0
-torchaudio==0.12.1
+torchaudio==2.0.1
 torchvision==0.13.1
 transformers==4.46.2
